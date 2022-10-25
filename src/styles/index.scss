@@ -1,9 +1,7 @@
 :root {
   --grey: #464646;
   --grey-100: #cdcdcdad;
-  --blue-200: #d4ddee;
   --blue-500: #7297e9;
-  --blue-800: #2748b4;
   --blue-900: #051f74;
 }
 
@@ -89,7 +87,7 @@ footer {
   a {
     transition: all 0.3s;
     &:hover {
-      transform: scale(1.6);
+      transform: scale(1.2);
       color: var(--blue-900);
     }
   }
@@ -139,13 +137,13 @@ p {
       }
       a, img {
         margin: 0 0.6rem;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
       }
       a {
         transition: all 0.3s;
         &:hover {
-          transform: scale(1.6);
-          color: var(--grey-100);
+          transform: scale(1.4);
+          color: var(--blue-900);
         }
       }
       .codeIcon {
